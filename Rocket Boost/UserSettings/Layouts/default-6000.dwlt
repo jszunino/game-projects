@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 47
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -271,16 +271,16 @@ MonoBehaviour:
     y: 1036
     width: 1964
     height: 257
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,7 +534,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cfbffff22a8000028a80000
+      m_ExpandedIDs: 1cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1068,9 +1068,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -23.313383, y: 1.0377772, z: 3.8561609}
+    m_Target: {x: -6.8728423, y: -0.30149516, z: 1.1305919}
     speed: 2
-    m_Value: {x: -23.313383, y: 1.0377772, z: 3.8561609}
+    m_Value: {x: -6.8728423, y: -0.30149516, z: 1.1305919}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1116,13 +1116,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15373453, y: -0.043855462, z: 0.006830106, w: 0.98711675}
+    m_Target: {x: 0.24094307, y: 0.09358281, z: -0.023348276, w: 0.9657377}
     speed: 2
-    m_Value: {x: -0.15373453, y: 0.043855462, z: -0.006830106, w: -0.98711675}
+    m_Value: {x: -0.24094306, y: -0.09358281, z: 0.023348276, w: -0.9657377}
   m_Size:
-    m_Target: 10.677643
+    m_Target: 17.328245
     speed: 2
-    m_Value: 10.677643
+    m_Value: 17.328245
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1115
+    y: 1060
     width: 1963
     height: 231
   m_SerializedDataModeController:
@@ -1215,16 +1215,16 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\jszun\\OneDrive\\\xC1rea de Trabalho\\Damn Unicorns!\\Unity\\Projects\\Rocket
+  m_LastProjectPath: "C:\\Users\\jszun\\OneDrive\\\xC1rea de Trabalho\\GameProjects\\Rocket
     Boost"
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 22ab0000
-    m_LastClickedID: 43810
-    m_ExpandedIDs: 000000002ea90000
+    m_SelectedIDs: 0cb90000
+    m_LastClickedID: 47372
+    m_ExpandedIDs: 0000000090af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1253,7 +1253,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002ea90000
+    m_ExpandedIDs: 0000000090af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1333,7 +1333,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1060
+    y: 1115
     width: 1963
     height: 231
   m_SerializedDataModeController:
