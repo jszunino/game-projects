@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float DelayTime = 2f;
     void OnCollisionEnter(Collision other)
     {
         switch (other.gameObject.tag)
@@ -10,21 +11,27 @@ public class CollisionHandler : MonoBehaviour
             case "Friendly":
                 Debug.Log("Its okay");
                 break;
-            case "Obstacle":
-                SceneManager.LoadScene(0);
-                Debug.Log("-999 aura");
-                break;
             case "Finish":
-                LoadNextLevel();
+                StartSuccesSequence();
                 Debug.Log("+999 aura");
                 break;
             default:
-                ReloadLevel();
+                StartCrashSequence();
                 Debug.Log("You're gay");
                 break;
         }
     }
 
+    private void StartSuccesSequence()
+    {
+        Invoke("LoadNextLevel", DelayTime);
+    }
+
+    private void StartCrashSequence()
+    {
+        GetComponent<Movement>().enabled = false;
+        Invoke("ReloadLevel", DelayTime);
+    }
     private void ReloadLevel()
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
