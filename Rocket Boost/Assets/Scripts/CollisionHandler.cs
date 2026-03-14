@@ -4,8 +4,19 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float DelayTime = 2f;
-    void OnCollisionEnter(Collision other)
+    [SerializeField] AudioClip successSFX;
+    [SerializeField] AudioClip explosionSFX;
+    AudioSource audioSource;
+    bool isControllable = true;
+
+    void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+    }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (!isControllable){return;}
+
         switch (other.gameObject.tag)
         {
             case "Friendly":
@@ -22,15 +33,20 @@ public class CollisionHandler : MonoBehaviour
         }
     }
 
-    private void StartSuccesSequence()
+    void StartSuccesSequence()
     {
+        isControllable = false;
+        GetComponent<Movement>().enabled = false;
         Invoke("LoadNextLevel", DelayTime);
+        audioSource.PlayOneShot(successSFX);
     }
 
-    private void StartCrashSequence()
+    void StartCrashSequence()
     {
+        isControllable = false;
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel", DelayTime);
+        audioSource.PlayOneShot(explosionSFX);
     }
     private void ReloadLevel()
     {

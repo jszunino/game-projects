@@ -101,6 +101,7 @@ MonoBehaviour:
     m_Flags: 0
   thrustStrenght: 950
   rotationStrenght: 100
+  mainEngine: {fileID: 8300000, guid: 90a7a402e9bd35d4c94a6818a40fa969, type: 3}
 --- !u!65 &3374299598043750317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -160,7 +161,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 90a7a402e9bd35d4c94a6818a40fa969, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -258,6 +259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87ee1a742da4d043973a1e95db204e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DelayTime: 2
+  successSFX: {fileID: 8300000, guid: a5f56fd823115e04cb0f41f8d7a7c41d, type: 3}
+  explosionSFX: {fileID: 8300000, guid: 252b0be591a08f648b04b5c629d39f71, type: 3}
 --- !u!1001 &7166242779083156518
 PrefabInstance:
   m_ObjectHideFlags: 0
