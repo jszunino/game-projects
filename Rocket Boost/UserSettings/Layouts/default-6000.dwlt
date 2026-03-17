@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 1111
     height: 1036
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -345,7 +345,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -17012
+  m_LastSelectedObjectID: -1254
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,7 +534,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8ebdffff54bfffff38c1fffff2c6ffff98c9ffff56cdffff8eceffffb8cfffffe2d0ffff32d3ffff1cfbffff
+      m_ExpandedIDs: 1afbffff1cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1068,9 +1068,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -6.8728423, y: -0.30149516, z: 1.1305919}
+    m_Target: {x: -24.171162, y: -2.3698742, z: 20.440487}
     speed: 2
-    m_Value: {x: -6.8728423, y: -0.30149516, z: 1.1305919}
+    m_Value: {x: -24.171162, y: -2.3698742, z: 20.440487}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1116,13 +1116,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.24094307, y: 0.09358281, z: -0.023348276, w: 0.9657377}
+    m_Target: {x: 0.094351776, y: -0.012840706, z: 0.001216871, w: 0.9954611}
     speed: 2
-    m_Value: {x: 0.24094239, y: 0.09358254, z: -0.023348209, w: 0.96573496}
+    m_Value: {x: 0.09435124, y: -0.012840632, z: 0.001216864, w: 0.9954554}
   m_Size:
-    m_Target: 16.448145
+    m_Target: 16.207027
     speed: 2
-    m_Value: 16.448145
+    m_Value: 16.207027
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1203,7 +1203,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Particles
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Particles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\jszun\\OneDrive\\\xC1rea de Trabalho\\GameProjects\\Rocket
     Boost"
@@ -1222,9 +1222,9 @@ MonoBehaviour:
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 9cb10000
-    m_LastClickedID: 45468
-    m_ExpandedIDs: 00000000a4af000000ca9a3bffffff7f
+    m_SelectedIDs: 0cb20000
+    m_LastClickedID: 45580
+    m_ExpandedIDs: 00000000a8af000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1253,7 +1253,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4af0000
+    m_ExpandedIDs: 00000000a8af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1299,7 +1299,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
