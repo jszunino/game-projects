@@ -35,12 +35,7 @@ public class Movement : MonoBehaviour
     {
         if (thrust.IsPressed())
         {
-            rb.AddRelativeForce(Vector3.up * thrustStrenght * Time.fixedDeltaTime);
-            if (!audioSource.isPlaying)
-            {
-                audioSource.PlayOneShot(mainEngine);
-                mainEngineParticles.Play();
-            }
+            ThrustEffects();
         }
         else
         {
@@ -49,7 +44,22 @@ public class Movement : MonoBehaviour
         }
     }
 
+    private void ThrustEffects()
+    {
+        rb.AddRelativeForce(Vector3.up * thrustStrenght * Time.fixedDeltaTime);
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(mainEngine);
+            mainEngineParticles.Play();
+        }
+    }
+
     private void processRotation()
+    {
+        RotateEffects();
+    }
+
+    private void RotateEffects()
     {
         float rotationInput = rotation.ReadValue<float>();
         if (rotationInput < 0)
